@@ -1,5 +1,7 @@
 package com.forrest.dao;
 
-public interface DeptDao {
+import com.forrest.domian.User;
 
-}
+public interface DeptDao {
+	User selectByLoginName();
+}                                                                                                                                                                                                                                                                                                                                                                                                                         
